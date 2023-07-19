@@ -1,8 +1,14 @@
-Query stream files generated at SF3K and SF10K... four (4) stream files at each scale. 
-Stored in seperate folders and renamed as follows:
+This repo contains pre-generated query stream files for a few different scale factors.
 
-query_0.sql   --> sf10k/query_0_sf10k.sql
-...
-query_3.sql   ---> sf10k/query_3_sf10.sql
+|Sacle Factor|Direcdtory Name|
+|100 GB|sf100_queries|
+|1 TB (1000 GB)|sf1000_queries|
+|3 TB (3000 GB)|sf3000_queries|
+10 TB (1000 GB)|sf10000_queries|
 
-Queries were generated with the default random seed. 
+
+For each scale, there are four query stream files, named query_N.sql. 
+
+The queries are in a pre-determined (pseudo random) order per the TPC-DS spec. 
+The query stream files were generated using the TPC-DS query generatory (dsdgen) and the queries were 
+generated using the default random seed. 
