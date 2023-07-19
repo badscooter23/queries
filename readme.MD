@@ -1,4 +1,4 @@
-#h2 Contents
+# Contents
 This repo contains pre-generated query stream files for a few different <b>scale factors</b>.
 The convention for TPC-DS is "sfXXXX" where XXXX is the size of the raw data set in gigabytes (GB).  
 
@@ -19,12 +19,12 @@ In general, any results obtained using the query stream files contained in this 
 TPC DS benchmark which are spelled out explicitly in the license agreement for the benchmark. 
 
 
-#2 NNVIDIA Spark-RAPIDS - NVIDIA Decsion Support (NDS) Benchmark
+# NNVIDIA Spark-RAPIDS - NVIDIA Decsion Support (NDS) Benchmark
 
-The query stream files in this repo were generated using the [nds_gen_query_stream.py](https://github.com/NVIDIA/spark-rapids-benchmarks/blob/dev/nds/nds_gen_query_stream.py)
-utility
-
-found in the [NVIDIA/spark_rapids_benchmarks](https://github.com/NVIDIA/spark-rapids-benchmarks) github repo.
+The query stream files in this repo were generated using the 
+[nds_gen_query_stream.py](https://github.com/NVIDIA/spark-rapids-benchmarks/blob/dev/nds/nds_gen_query_stream.py)
+utility which can be found in the 
+[NVIDIA/spark_rapids_benchmarks](https://github.com/NVIDIA/spark-rapids-benchmarks) github repo.
 
 nds_gen_query_stream.py is essentially a wrapper for the offiical TPC-DS query generator (dsqgen). 
 
