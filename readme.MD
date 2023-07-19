@@ -5,9 +5,9 @@ The convention for TPC-DS is "sfXXXX" where XXXX is the size of the raw data set
 |Sacle Factor|Raw Dataset Size (approximate)|Directory Name|
 |:-----------|:-----------------------------|:-------------|
 |sf100|100 GB|sf100_queries|
-|sf1000|1 TB (1000 GB)|sf1000_queries|
-|sf3000|3 TB (3000 GB)|sf3000_queries|
-|sf10000|10 TB (1000 GB)|sf10000_queries|
+|sf1000|1 TB (1,000 GB)|sf1000_queries|
+|sf3000|3 TB (3,000 GB)|sf3000_queries|
+|sf10000|10 TB (10,000 GB)|sf10000_queries|
 
 
 For each scale, there are four query stream files, named <b>query_N.sql</b>. 
