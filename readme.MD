@@ -1,6 +1,7 @@
 This repo contains pre-generated query stream files for a few different scale factors.
 
 |Sacle Factor|Direcdtory Name|
+|:-----------|:--------------|
 |100 GB|sf100_queries|
 |1 TB (1000 GB)|sf1000_queries|
 |3 TB (3000 GB)|sf3000_queries|
